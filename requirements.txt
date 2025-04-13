@@ -1,0 +1,32 @@
+# Dépendances principales pour le scraping et l'API
+selenium==4.18.1
+beautifulsoup4==4.12.3
+psycopg2-binary==2.9.9
+pandas==2.2.1
+flask==3.0.3
+
+# Dépendances supplémentaires pour Selenium
+webdriver-manager==4.0.2  # Pour gérer automatiquement les pilotes de navigateur (optionnel)
+requests==2.32.3  # Utilisé par Selenium pour certaines requêtes HTTP
+
+# Dépendances pour BeautifulSoup
+lxml==5.2.1  # Parser HTML/XML plus rapide pour BeautifulSoup (optionnel mais recommandé)
+
+# Dépendances pour pandas
+numpy==1.26.4  # Requis par pandas pour les calculs numériques
+
+# Dépendances pour Flask
+werkzeug==3.0.3  # Utilisé par Flask pour le serveur WSGI
+jinja2==3.1.4  # Moteur de templates utilisé par Flask (pour render_template_string)
+markupsafe==2.1.5  # Utilisé par Jinja2 pour échapper les données HTML
+itsdangerous==2.2.0  # Utilisé par Flask pour signer les cookies et autres données
+click==8.1.7  # Utilisé par Flask pour les commandes CLI
+
+# Dépendances pour la gestion des dates et des délais
+python-dateutil==2.9.0.post0  # Utilisé par pandas pour gérer les dates
+
+# Dépendances pour la robustesse du scraping
+urllib3==2.2.1  # Utilisé par requests pour les requêtes HTTP
+certifi==2024.2.2  # Utilisé par requests pour la gestion des certificats SSL
+charset-normalizer==3.3.2  # Utilisé par requests pour la gestion des encodages
+idna==3.7  # Utilisé par requests pour la gestion des noms de domaine internationaux
