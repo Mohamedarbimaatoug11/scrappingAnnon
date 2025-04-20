@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Menzili Scraper et API
 
 Ce projet est une application Python qui scrape des annonces immobilières sur le site [Menzili.tn](https://www.menzili.tn) et expose les données via une API RESTful construite avec Flask. Les données sont sauvegardées dans un fichier CSV (`annonces_immobilieres.csv`) et dans une base de données PostgreSQL.
@@ -31,3 +32,6 @@ Ce projet est une application Python qui scrape des annonces immobilières sur l
 
 ## Database
 - Data is stored in a PostgreSQL database. Use PgAdmin to view the `annonces` table.
+=======
+# scrappingAnnon
+>>>>>>> 52156865228ce96614f63f2a192275120fc7250d
